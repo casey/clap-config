@@ -1,0 +1,7 @@
+# example config file
+
+foo = true
+bar = "hello"
+
+# illegal, since baz has `allow_in_config(false)`:
+# baz = "something"
