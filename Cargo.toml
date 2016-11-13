@@ -1,0 +1,8 @@
+[package]
+name = "clap-config"
+version = "0.1.0"
+authors = ["Casey Rodarmor <casey@rodarmor.com>"]
+
+[dependencies]
+
+clap = "*"
