@@ -7,3 +7,8 @@ It would be pretty awesome if clap would generate a simple YAML or TOML config p
 Lots of things wouldn't make sense, for example subcommands, but the majority of things probably would.
 
 Also, since YAML or TOML are typed languages, type restrictions would be easy to enforce.
+
+I wrote up a quick sketch of how I imagine it looking. The interesting files are:
+
+- `src/main.rs`: Create a clap::App and load matches from config file
+- `src/ExampleConfig.coml`: An example config file
